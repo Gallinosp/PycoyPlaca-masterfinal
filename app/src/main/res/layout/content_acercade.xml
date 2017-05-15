@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ae103e52f20f60c6171fa906a59fd702"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.frank.myapplication.acercade"
+    tools:showIn="@layout/activity_acercade">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="142dp"
+        android:layout_height="126dp"
+        android:layout_alignEnd="@+id/button4"
+        android:layout_alignRight="@+id/button4"
+        android:layout_toEndOf="@+id/imageView3"
+        android:layout_toRightOf="@+id/imageView3"
+        android:layout_x="7dp"
+        android:layout_y="177dp"
+        app:srcCompat="@android:drawable/sym_action_call" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:layout_x="140dp"
+        android:layout_y="352dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="salirr"
+        android:text="Salir" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="239dp"
+        android:fontFamily="cursive"
+        android:text="3178946259"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginTop="26dp"
+        android:layout_x="287dp"
+        android:layout_y="236dp"
+        app:srcCompat="@mipmap/escudo" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:layout_x="26dp"
+        android:layout_y="67dp"
+        android:fontFamily="cursive"
+        android:text="Ing. José Mauricio Villota Paz"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30sp" />
+
+</android.widget.AbsoluteLayout>

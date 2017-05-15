@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:backgroundTint="@android:color/holo_green_light"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:background="@android:color/holo_blue_dark">
+
+    <TextView
+        android:id="@+id/tv_proximo_dia"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:layout_x="16dp"
+        android:layout_y="402dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:layout_x="11dp"
+        android:layout_y="366dp"
+        android:text="Su próximo día de pico es:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:layout_x="0dp"
+        android:layout_y="1dp"
+        android:fontFamily="cursive"
+        android:text="Pico y Placa Pasto"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="124dp"
+        android:layout_height="95dp"
+        android:layout_x="241dp"
+        android:layout_y="277dp"
+        app:srcCompat="?android:attr/actionModePasteDrawable" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="46dp"
+        android:text="HOY"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:layout_x="242dp"
+        android:layout_y="229dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Mi placa: "
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_x="235dp"
+        android:layout_y="404dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:onClick="configuracion"
+        android:text="Configurar" />
+
+    <TextView
+        android:id="@+id/tv_placa"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_x="280dp"
+        android:layout_y="308dp"
+        android:text="TextView"
+        android:textColor="?android:attr/editTextColor"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="737dp"
+        android:layout_height="653dp"
+        android:layout_x="-184dp"
+        android:layout_y="-133dp"
+        app:srcCompat="@mipmap/letrero" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="145dp"
+        android:fontFamily="casual"
+        android:text="#-#"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="109dp"
+        android:layout_height="34dp"
+        android:layout_x="-18dp"
+        android:layout_y="484dp"
+        android:onClick="acercade"
+        android:text="Acerca de"
+        android:textSize="10sp"
+        tools:text="Acerca de" />
+
+</android.widget.AbsoluteLayout>

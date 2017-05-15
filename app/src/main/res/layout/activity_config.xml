@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:backgroundTint="@android:color/holo_blue_dark"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.frank.myapplication.ConfigActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="9dp"
+        android:fontFamily="cursive"
+        android:text="Mi placa:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="147dp"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="reg"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="0.07"
+        android:layout_x="118dp"
+        android:layout_y="82dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="233dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="la restriccón comienza a partir de las 7:30 a.m y va hasta las 7:00 p.m"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp" />
+
+</android.widget.AbsoluteLayout>
